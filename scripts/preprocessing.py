@@ -32,11 +32,18 @@ def check_missing_values(creditcard_data, fraud_data, ip_data):
     print("IP Address Data Missing Values:\n", ip_data.isnull().sum(), "\n")
 
 def clean_data(creditcard_data, fraud_data, ip_data):
-    """Drop missing values and duplicates from datasets."""
-    creditcard_data.dropna(inplace=True)
-    fraud_data.dropna(inplace=True)
-    ip_data.dropna(inplace=True)
 
+    # Handle missing values
+    # Impute numerical columns with the median
+    fraud_data['age'] = fraud_data['age'].fillna(fraud_data['age'].median())
+    fraud_data['purchase_value'] = fraud_data['purchase_value'].fillna(fraud_data['purchase_value'].median())
+
+    # Impute categorical columns with the mode
+    fraud_data['source'] = fraud_data['source'].fillna(fraud_data['source'].mode()[0])
+    fraud_data['browser'] = fraud_data['browser'].fillna(fraud_data['browser'].mode()[0])
+
+    
+    # Remove duplicates
     creditcard_data.drop_duplicates(inplace=True)
     fraud_data.drop_duplicates(inplace=True)
     ip_data.drop_duplicates(inplace=True)
@@ -44,8 +51,20 @@ def clean_data(creditcard_data, fraud_data, ip_data):
     # Convert relevant columns to datetime
     fraud_data['signup_time'] = pd.to_datetime(fraud_data['signup_time'])
     fraud_data['purchase_time'] = pd.to_datetime(fraud_data['purchase_time'])
+    creditcard_data['Time'] = pd.to_timedelta(creditcard_data['Time'], unit='s')
+    
+    # Ensure numerical columns are of the correct type
+    fraud_data['purchase_value'] = fraud_data['purchase_value'].astype(float)
+    creditcard_data['Amount'] = creditcard_data['Amount'].astype(float)
+
+    # Encode categorical columns
+    fraud_data['source'] = fraud_data['source'].astype('category')
+    fraud_data['browser'] = fraud_data['browser'].astype('category')
+    fraud_data['sex'] = fraud_data['sex'].astype('category')
 
     return creditcard_data, fraud_data, ip_data
+
+
 
 def plot_purchase_value_distribution(fraud_data):
     """Plot the distribution of purchase values."""
