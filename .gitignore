@@ -1,3 +1,6 @@
 
 /data
-/venv
+/w89venv
+/notebooks/mlruns
+/scripts/mlruns
+/models
