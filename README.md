@@ -73,13 +73,13 @@ pip install pandas matplotlib seaborn scikit-learn joblib
 1. **Clone this repository** to your local machine:
 
     ```bash
-    git clone https://github.com/SolomonZinabu/week-8-9
+    git clone https://github.com/achimdesa/week8-9
     ```
 
 2. **Navigate** to the project directory:
 
     ```bash
-    cd week-8-9
+    cd week8-9
     ```
 
 3. Ensure you have the necessary datasets (`creditcard.csv`, `Fraud_Data.csv`, and `IpAddress_to_Country.csv`) in the `/data` folder relative to the task notebook.
@@ -95,6 +95,9 @@ pip install pandas matplotlib seaborn scikit-learn joblib
     ```bash
     jupyter notebook task2.ipynb
     ```
+
+6. ** API development is saved in 'fraud-detection-api' folder
+7. ** Dashboard building with Flask and Dash is saved in 'dashboard' folder
 
 ## Results
 
