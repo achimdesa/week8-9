@@ -1,6 +1,10 @@
 
 /data
+<<<<<<< HEAD
 /w89venv
 /notebooks/mlruns
 /scripts/mlruns
 /models
+=======
+/w89venv
+>>>>>>> 5cd2a6a4f4d65ddb928c4dceb59ca7b1ac055bc4
