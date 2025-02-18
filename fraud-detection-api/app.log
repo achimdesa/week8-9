@@ -1,0 +1,122 @@
+2025-02-18 14:30:30,384 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.25.176:5000
+2025-02-18 14:30:30,384 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 14:48:34,994 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.25.176:5000
+2025-02-18 14:48:34,994 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 14:52:01,867 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.25.176:5000
+2025-02-18 14:52:01,867 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 14:53:46,418 INFO: Received prediction request
+2025-02-18 14:53:46,418 ERROR: Error occurred: 'numpy.ndarray' object has no attribute 'predict'
+2025-02-18 14:53:46,419 INFO: 127.0.0.1 - - [18/Feb/2025 14:53:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-02-18 15:07:33,660 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.25.176:5000
+2025-02-18 15:07:33,660 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 15:07:48,675 INFO: Received prediction request
+2025-02-18 15:07:48,686 INFO: Prediction: 0, Probability: 0.22
+2025-02-18 15:07:48,688 INFO: 127.0.0.1 - - [18/Feb/2025 15:07:48] "POST /predict HTTP/1.1" 200 -
+2025-02-18 15:09:36,902 INFO: Received prediction request
+2025-02-18 15:09:36,918 INFO: Prediction: 0, Probability: 0.22
+2025-02-18 15:09:36,918 INFO: 127.0.0.1 - - [18/Feb/2025 15:09:36] "POST /predict HTTP/1.1" 200 -
+2025-02-18 19:11:49,548 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.215.147:5000
+2025-02-18 19:11:49,549 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 19:12:17,891 INFO: Received prediction request
+2025-02-18 19:12:17,891 ERROR: Error occurred: 'numpy.ndarray' object has no attribute 'predict'
+2025-02-18 19:12:17,893 INFO: 127.0.0.1 - - [18/Feb/2025 19:12:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-02-18 19:26:41,778 INFO: Received prediction request
+2025-02-18 19:26:41,778 ERROR: Error occurred: 'numpy.ndarray' object has no attribute 'predict'
+2025-02-18 19:26:41,779 INFO: 127.0.0.1 - - [18/Feb/2025 19:26:41] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-02-18 19:41:59,338 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.215.147:5000
+2025-02-18 19:41:59,338 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 19:42:14,956 INFO: Received prediction request
+2025-02-18 19:42:14,956 ERROR: Error occurred: 'numpy.ndarray' object has no attribute 'predict'
+2025-02-18 19:42:14,956 INFO: 127.0.0.1 - - [18/Feb/2025 19:42:14] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-02-18 19:46:05,868 INFO: Model loaded successfully.
+2025-02-18 19:46:05,883 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.215.147:5000
+2025-02-18 19:46:05,883 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 19:46:18,308 INFO: Received prediction request
+2025-02-18 19:46:18,323 INFO: Prediction: 0, Probability: 0.22
+2025-02-18 19:46:18,324 INFO: 127.0.0.1 - - [18/Feb/2025 19:46:18] "POST /predict HTTP/1.1" 200 -
+2025-02-18 19:47:55,078 INFO: Model loaded successfully.
+2025-02-18 19:47:55,092 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.215.147:5000
+2025-02-18 19:47:55,092 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 19:48:03,854 INFO: Received prediction request
+2025-02-18 19:48:03,886 INFO: Prediction: 0, Probability: 0.17
+2025-02-18 19:48:03,887 INFO: 127.0.0.1 - - [18/Feb/2025 19:48:03] "POST /predict HTTP/1.1" 200 -
+
+
+
+
+2025-02-18 19:51:57,372 INFO: Model loaded successfully.
+2025-02-18 19:51:57,388 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.215.147:5000
+2025-02-18 19:51:57,388 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 19:52:21,932 INFO: Received prediction request
+2025-02-18 19:52:21,951 INFO: Prediction: 0, Probability: 0.17
+2025-02-18 19:52:21,953 INFO: 127.0.0.1 - - [18/Feb/2025 19:52:21] "POST /predict HTTP/1.1" 200 -
+2025-02-18 19:52:53,861 INFO: 192.168.215.147 - - [18/Feb/2025 19:52:53] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-18 20:01:58,901 INFO: Model loaded successfully.
+2025-02-18 20:02:37,901 INFO: Model loaded successfully.
+2025-02-18 20:05:17,290 INFO: Model loaded successfully.
+2025-02-18 20:05:17,312 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.215.147:5000
+2025-02-18 20:05:17,313 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 20:05:30,483 INFO: Model loaded successfully.
+2025-02-18 20:05:50,572 INFO: Model loaded successfully.
+2025-02-18 20:14:19,739 INFO: Model loaded successfully.
+2025-02-18 20:14:19,756 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.215.147:5000
+2025-02-18 20:14:19,756 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 21:23:04,037 INFO: Model loaded successfully.
+2025-02-18 21:23:04,052 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.215.147:5000
+2025-02-18 21:23:04,052 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 21:23:49,905 INFO: Received prediction request
+2025-02-18 21:23:49,918 INFO: Prediction: 0, Probability: 0.17
+2025-02-18 21:23:49,918 INFO: 127.0.0.1 - - [18/Feb/2025 21:23:49] "POST /predict HTTP/1.1" 200 -
+2025-02-18 21:24:35,290 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.215.147:5000
+2025-02-18 21:24:35,291 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 21:24:44,743 INFO: Received prediction request
+2025-02-18 21:24:44,743 ERROR: Error occurred: 'numpy.ndarray' object has no attribute 'predict'
+2025-02-18 21:24:44,743 INFO: 127.0.0.1 - - [18/Feb/2025 21:24:44] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-02-18 21:26:51,632 INFO: Model loaded successfully.
+2025-02-18 21:26:51,645 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.215.147:5000
+2025-02-18 21:26:51,645 INFO: [33mPress CTRL+C to quit[0m
+2025-02-18 21:27:04,045 INFO: Received prediction request
+2025-02-18 21:27:04,056 INFO: Prediction: 0, Probability: 0.17
+2025-02-18 21:27:04,057 INFO: 127.0.0.1 - - [18/Feb/2025 21:27:04] "POST /predict HTTP/1.1" 200 -
